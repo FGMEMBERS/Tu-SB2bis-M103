@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList> 
+  
+  <path>oilt.ac</path>  
+  
+  <animation>
+    <object-name>fond</object-name>
+    <object-name>face</object-name>
+    <object-name>needle</object-name>
+    
+    <object-name>vitre</object-name>
+  </animation>
+  
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/Tu-SB2bis-M103/Models/Effects/Glass/glass</inherits-from>
+    <object-name>vitre</object-name>
+  </effect>
+  
+  <animation>
+    <type>material</type>
+    <object-name>face</object-name>
+    <object-name>needle</object-name>
+    <!--
+    <condition>
+    <property>controls/lighting/instrument-lights</property>
+    <property>/controls/electric/battery-switch</property>
+    </condition>
+    -->
+    <emission>
+      <!-- <factor-prop>controls/lighting/luminosite-lights</factor-prop> -->
+      <red>   0.9 </red>
+      <green> 0.5 </green>
+      <blue>  0.2 </blue>
+    </emission>
+  </animation>
+  
+  <animation> 
+    <type>rotate</type>
+    <object-name>needle</object-name>
+    <property>engines/engine[1]/oil-temperature-degf</property>
+    <interpolation> 
+      <entry><ind>   0 </ind><dep>  0 </dep></entry> <!--   0 deg -->
+      <entry><ind>  68 </ind><dep> 15 </dep></entry> <!--  20 deg -->
+      <entry><ind> 104 </ind><dep> 27 </dep></entry> <!--  40 deg -->
+      <entry><ind> 140 </ind><dep> 40 </dep></entry> <!--  60 deg -->
+      <entry><ind> 176 </ind><dep> 53 </dep></entry> <!--  80 deg -->
+      <entry><ind> 212 </ind><dep> 67 </dep></entry> <!-- 100 deg -->
+      <entry><ind> 248 </ind><dep> 82 </dep></entry> <!-- 120 deg -->
+    </interpolation>
+    <center>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.025 </z-m>
+    </center>
+    <axis> 
+      <x> -1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+  
+</PropertyList>
