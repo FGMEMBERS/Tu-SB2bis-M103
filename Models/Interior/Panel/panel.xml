@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+   <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m> -0.005 </x-m>
+      <y-m> -0.232 </y-m>
+      <z-m>  0.009 </z-m>
+    </offsets>
+  </model>
+
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> -0.007 </x-m>
+      <y-m> -0.105 </y-m>
+      <z-m>  0.139 </z-m>
+    </offsets>
+  </model>
+
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> 0.003 </x-m>
+      <y-m> 0.017 </y-m>
+      <z-m> 0.139 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -0.006 </x-m>
+      <y-m> -0.228 </y-m>
+      <z-m>  0.139 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> -0.004 </x-m>
+      <y-m> -0.229 </y-m>
+      <z-m> -0.110 </z-m>
+    </offsets>
+  </model>
+
+  <!-- COMPASS -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Panel/Instruments/compass/compass.xml</path>
+    <offsets>
+      <x-m> -0.004 </x-m>
+      <y-m> -0.081 </y-m>
+      <z-m> -0.001 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RPM -->
+  <!-- Left -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Panel/Instruments/rpm/rpm0.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.146 </y-m>
+      <z-m>  0.161 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Right -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Panel/Instruments/rpm/rpm1.xml</path>
+    <offsets>
+      <x-m> -0.003 </x-m>
+      <y-m>  0.267 </y-m>
+      <z-m>  0.153 </z-m>
+    </offsets>
+  </model>
+
+  <!-- MAN -->
+  <!-- Left -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Panel/Instruments/man/man0.xml</path>
+    <offsets>
+      <x-m> -0.017 </x-m>
+      <y-m>  0.195 </y-m>
+      <z-m>  0.043 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Right -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Panel/Instruments/man/man1.xml</path>
+    <offsets>
+      <x-m> -0.017 </x-m>
+      <y-m>  0.305 </y-m>
+      <z-m>  0.043 </z-m>
+    </offsets>
+  </model>
+
+  <!-- OIL TEMPERATURE -->
+  <!-- Left -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Panel/Instruments/oilt/oilt0.xml</path>
+    <offsets>
+      <x-m> -0.007 </x-m>
+      <y-m>  0.153 </y-m>
+      <z-m> -0.144 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Right -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Panel/Instruments/oilt/oilt1.xml</path>
+    <offsets>
+      <x-m> -0.007 </x-m>
+      <y-m>  0.243 </y-m>
+      <z-m> -0.144 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- OIL PRESSURE -->
+  <!-- Left -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Panel/Instruments/oilp/oilp0.xml</path>
+    <offsets>
+      <x-m> -0.007 </x-m>
+      <y-m>  0.333 </y-m>
+      <z-m> -0.144 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Right -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Panel/Instruments/oilp/oilp1.xml</path>
+    <offsets>
+      <x-m> -0.007 </x-m>
+      <y-m>  0.422 </y-m>
+      <z-m> -0.144 </z-m>
+    </offsets>
+  </model>
+  
+</PropertyList>
