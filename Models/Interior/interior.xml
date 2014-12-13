@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>interior.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>interieur</object-name>
+    <object-name>inttour</object-name>
+    <object-name>planchet</object-name>
+    <object-name>intcanopeA</object-name>
+    <object-name>intcanopeB</object-name>
+    
+    <!-- Objets transparents -->
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <!-- Planche de bord -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> -4.17531 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m>  0.20124 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Pilote -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -3.55331 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m>  0.21374 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Gunner
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -0.760 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.426 </z-m>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model> -->
+
+  <!-- Guns -->
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Guns/guns.xml</path>
+    <offsets>
+      <x-m> -5.94814 </x-m>
+      <y-m> -0.12581 </y-m>
+      <z-m> -0.33170 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Tu-SB2bis-M103/Models/Interior/Guns/guns.xml</path>
+    <offsets>
+      <x-m> -5.94814 </x-m>
+      <y-m>  0.12581 </y-m>
+      <z-m> -0.33170 </z-m>
+    </offsets>
+  </model>
+  
+</PropertyList>
