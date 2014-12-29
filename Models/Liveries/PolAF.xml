@@ -6,8 +6,8 @@
     
     <model>
       <livery>
-        <name type="string">Default - USSR 24th SBAP</name>
-        <texture>texture.png</texture>
+        <name type="string">Polish Air Force, Trainer</name>
+        <texture>Liveries/2048x2048/PolAF.png</texture>
         <specular>
           <red>   0.3 </red>
           <green> 0.3 </green>

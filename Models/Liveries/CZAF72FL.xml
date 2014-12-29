@@ -6,8 +6,8 @@
     
     <model>
       <livery>
-        <name type="string">Default - USSR 24th SBAP</name>
-        <texture>texture.png</texture>
+        <name type="string">Czech Air Force, 72 Fl., 1 Sqdn, 6LP</name>
+        <texture>Liveries/2048x2048/CZAF72FL.png</texture>
         <specular>
           <red>   0.3 </red>
           <green> 0.3 </green>
