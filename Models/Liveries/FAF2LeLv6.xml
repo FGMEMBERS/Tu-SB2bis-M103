@@ -6,8 +6,8 @@
     
     <model>
       <livery>
-        <name type="string">Default - USSR 24th SBAP</name>
-        <texture>texture.png</texture>
+        <name type="string">Finn Air Force, 2LeLv6</name>
+        <texture>Liveries/2048x2048/FAF2LeLv6.png</texture>
         <specular>
           <red>   0.3 </red>
           <green> 0.3 </green>

@@ -6,8 +6,8 @@
     
     <model>
       <livery>
-        <name type="string">Default - USSR 24th SBAP</name>
-        <texture>texture.png</texture>
+        <name type="string">USSR 1st MTAB, Baltic Fleet</name>
+        <texture>Liveries/2048x2048/USSR1MTAB.png</texture>
         <specular>
           <red>   0.3 </red>
           <green> 0.3 </green>
